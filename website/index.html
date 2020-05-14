@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gaming Spot at Lichterfelde Berlin</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="4-menu.css">
+    <script src="menu.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <a href="spa.html">
+            <center><img src="logo2.png" id="logo"/></center>
+        </a>
+        <a href="#" class="menubutton">MENU</a>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#intro" id ="start" class="active">Intro</a>
+            </li>
+            <li>
+                <a href="#churches" id="churches">Churches</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="inhalt">
+
+    </div>
+    <template id="intro">
+        <h1>Intro</h1>
+		<a href="https://upload.wikimedia.org/wikipedia/commons/e/e5/Emisch_Haus.JPG" id="linktoitself"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Emisch_Haus.JPG" alt="lichterfelde berlin"/></a>
+		<div class="grid">
+		    <div>	
+			    <h3>Beschreibung</h3>
+    			<p>Lichterfelde ist ein Ortsteil im Berliner Bezirk Steglitz-Zehlendorf. Lichterfelde grenzt im Nordwesten an Dahlem, im Nordosten an Steglitz, im Westen an Zehlendorf und im Osten an Lankwitz sowie im Süden an das Land Brandenburg. Die Villenkolonie
+    				Lichterfelde entstand in der zweiten Hälfte des 19. Jahrhunderts auf der Feldflur der alten Dörfer und Rittergüter Lichterfelde und Giesensdorf. Die Unterteilung der Ortslagen Lichterfelde West, Lichterfelde Ost und Lichterfelde Süd bezieht sich
+    				auf die Bahnhöfe an der Anhalter und Potsdamer Bahn. </p>
+    			<p>Quelle: <a href="https://de.wikipedia.org/wiki/Berlin-Lichterfelde">Wikipedia</a></p>
+			</div>
+			
+			<div>
+    			<h3>Daten</h3>
+    			<table>
+    				<tr>
+    					<td>Land</td>
+    					<td>Deutschland</td>
+    				</tr>
+    				<tr>
+    					<td>Fl&aumlche</td>
+    					<td>18,22 km²</td>
+    				</tr>
+    				<tr>
+    					<td>Einwohner</td>
+    					<td>83.293</td>
+    				</tr>
+    			</table>
+			</div>
+		</div>
+		
+		<h3>&Uumlber Berlin</h3>
+		<blockquote>
+		    Wer Berlin zur neuen Hauptstadt macht, schafft geistig ein neues Preußen.
+		    <footer>
+		        <cite>- Konrad Adenauer </cite>
+		    </footer>
+		</blockquote>
+    </template>
+    
+    <template id="church">
+        <h2>Kirchen in Berlin-Lichterfelde</h2>
+        <div class="cards">
+            
+            <script src="menu.js" type="text/javascript">
+                showChurches();
+			</script>
+			
+			<!-- Card -->
+			<template id="card">
+				<div class="card">
+					<header>
+						<img src="" alt="">
+						<h3>
+							<div class="subtitle"></div>
+						</h3>
+					</header>
+					<section>
+						<div id="cardAddress"></div>
+						<div id="cardUrl"><a href=""></a></div>
+					</section>
+				</div>
+			</template>
+        </div>
+    </template>
+    <template id="impressum">
+        <h2>Impressum</h2>
+
+        <address>
+            <a href="mailto: max.mustermann@muster-host.de">Max Mustermann</a><br>
+            Musterstraße 42<br>
+            12342 Berlin<br>
+            <a href="tel: +49 30 99999999">+49 30 99999999</a>
+        </address>
+
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=13.319249153137209%2C52.42411936986419%2C13.337273597717287%2C52.43361815585654&amp;layer=mapnik&amp;marker=52.42886901873492%2C13.328261375427246" style="border: 1px solid black"></iframe>        <h2>Kontakt</h2>
+        <form>
+            <p>
+                <input type="radio" id="frau" name="anrede" value="frau" checked><label for="frau">Frau</label>
+                <input type="radio" id="herr" name="anrede" value="herr"><label for="herr">Herr</label>
+            </p>
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" value="" id="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-Mail</label></td>
+                    <td><input type="email" name="email" value="" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="bezirk">Bezirk</label></td>
+                    <td>
+                        <input type="text" name="bezirk" list="bezirk">
+                        <datalist id="bezirk">
+                            <select>
+                                <option value="charlottenburg-wilmersdorf">Charlottenburg-Wilmersdorf</option>
+    	                        <option value="reinickendorf">Reinickendorf</option>
+    	                        <option value="pankow">Pankow</option>
+    	                        <option value="lichtenberg">Lichtenberg</option>
+    	                        <option value="marzahn-hellersdorf">Marzahn-Hellersdorf</option>
+    	                        <option value="friedrichshain-kreuzberg">Friedrichshain-Kreuzberg</option>
+    	                        <option value="mitte">Mitte</option>
+    	                        <option value="spandau">Spandau</option>
+    	                        <option value="steglitz-zehlendorf">Steglitz-Zehlendorf</option>
+    	                        <option value="tempelhof-schoeneberg">Tempelhof-Sch&oumlneberg</option>
+    	                        <option value="neukoelln">Neuk&oumllln</option>
+    	                        <option value="treptow-koepenik">Treptow-K&oumlpenik</option>
+                            </select>
+                        </datalist>
+                        </input>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Telefon</label></td>
+                    <td><input type="tel" name="tel" id="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="betreff">Betreff</label></td>
+                    <td><input type="text" name="betreff" id="betreff"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea rows="8" cols="40" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="sb">
+                        <input type="reset">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </template>
+    
+    <footer>
+        <nav><ul><li><a href="#kontakt" id="kontakt">Kontakt und Impressum</a></li></ul></nav>
+    </footer>
+</div>
+</body>
+</html>

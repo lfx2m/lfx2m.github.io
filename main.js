@@ -59,14 +59,14 @@ const footer = new Vue({
         <ul class="navbar-nav bd-navbar-nav flex-wrap">
             <li class = "nav-item">
                 <a class="nav-link">
-                    <a type="button" class="btn btn-danger" href="" target="blank">JavaScript</a>
-                    <a type="button" class="btn btn-danger" href="" target="blank">Python</a>
-                    <a type="button" class="btn btn-danger" href="" target="blank">Java</a>
-                    <a type="button" class="btn btn-danger" href="" target="blank">C</a>
-                    <a type="button" class="btn btn-danger" href="" target="blank">R</a>
-                    <a type="button" class="btn btn-danger" href="" target="blank">API</a>
-                    <a type="button" class="btn btn-danger" href="" target="blank">UML</a>
-                    <a type="button" class="btn btn-danger" href="" target="blank">OOP</a>
+                    <a type="button" class="btn btn-danger text-white">JavaScript</a>
+                    <a type="button" class="btn btn-danger text-white">Python</a>
+                    <a type="button" class="btn btn-danger text-white">Java</a>
+                    <a type="button" class="btn btn-danger text-white">C</a>
+                    <a type="button" class="btn btn-danger text-white">R</a>
+                    <a type="button" class="btn btn-danger text-white">API</a>
+                    <a type="button" class="btn btn-danger text-white">UML</a>
+                    <a type="button" class="btn btn-danger text-white">OOP</a>
                 </a>
             </>
         </ul>
@@ -78,12 +78,12 @@ const footer = new Vue({
             <ul class="navbar-nav bd-navbar-nav flex-wrap">
                 <li class = "nav-item">
                     <a class="nav-link">
-                        <a type="button" class="btn btn-primary" href="" target="blank">REST</a>
-                        <a type="button" class="btn btn-primary" href="" target="blank">NodeJS</a>
-                        <a type="button" class="btn btn-primary" href="" target="blank">CSS/SCSS</a>
-                        <a type="button" class="btn btn-primary" href="" target="blank">MongoDB</a>
-                        <a type="button" class="btn btn-primary" href="" target="blank">Vue.js</a>
-                        <a type="button" class="btn btn-primary" href="" target="blank">Bootstrap</a>
+                        <a type="button" class="btn btn-primary text-white">REST</a>
+                        <a type="button" class="btn btn-primary text-white">NodeJS</a>
+                        <a type="button" class="btn btn-primary text-white">CSS/SCSS</a>
+                        <a type="button" class="btn btn-primary text-white">MongoDB</a>
+                        <a type="button" class="btn btn-primary text-white">Vue.js</a>
+                        <a type="button" class="btn btn-primary text-white">Bootstrap</a>
                     </a>
                 </>
             </ul>
@@ -95,11 +95,11 @@ const footer = new Vue({
             <ul class="navbar-nav bd-navbar-nav flex-wrap">
                 <li class = "nav-item">
                     <a class="nav-link">
-                        <a type="button" class="btn btn-secondary" href="" target="blank">pwntools</a>
-                        <a type="button" class="btn btn-secondary" href="" target="blank">octoproxy</a>
-                        <a type="button" class="btn btn-secondary" href="" target="blank">Burp</a>
-                        <a type="button" class="btn btn-secondary" href="" target="blank">Ghidra</a>
-                        <a type="button" class="btn btn-secondary" href="" target="blank">sqlmap</a>
+                        <a type="button" class="btn btn-secondary text-white">pwntools</a>
+                        <a type="button" class="btn btn-secondary text-white">octoproxy</a>
+                        <a type="button" class="btn btn-secondary text-white">Burp</a>
+                        <a type="button" class="btn btn-secondary text-white">Ghidra</a>
+                        <a type="button" class="btn btn-secondary text-white">sqlmap</a>
                     </a>
                 </>
             </ul>
@@ -111,13 +111,13 @@ const footer = new Vue({
             <ul class="navbar-nav bd-navbar-nav flex-wrap">
                 <li class = "nav-item">
                     <a class="nav-link">
-                        <a type="button" class="btn btn-success" href="" target="blank">Linux</a>
-                        <a type="button" class="btn btn-success" href="" target="blank">Windows</a>
-                        <a type="button" class="btn btn-success" href="" target="blank">WSL</a>
-                        <a type="button" class="btn btn-success" href="" target="blank">Git</a>
-                        <a type="button" class="btn btn-success" href="" target="blank">Latex</a>
-                        <a type="button" class="btn btn-success" href="" target="blank">MSOffice</a>
-                        <a type="button" class="btn btn-success" href="" target="blank">bash</a>
+                        <a type="button" class="btn btn-success text-white">Linux</a>
+                        <a type="button" class="btn btn-success text-white">Windows</a>
+                        <a type="button" class="btn btn-success text-white">WSL</a>
+                        <a type="button" class="btn btn-success text-white">Git</a>
+                        <a type="button" class="btn btn-success text-white">Latex</a>
+                        <a type="button" class="btn btn-success text-white">MSOffice</a>
+                        <a type="button" class="btn btn-success text-white">bash</a>
                     </a>
                 </>
             </ul>

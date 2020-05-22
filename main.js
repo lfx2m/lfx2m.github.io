@@ -42,10 +42,9 @@ const mainer = new Vue({
         <div class="col-lg-12 text-center">
             <img class="img rounded-circle align-self-center" width="240" 
                 src="Images/StefanKubisa.jpeg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img-fluid">
-                <title>Placeholder</title>
             </img>
             <h2>Stefan Kubisa</h2>
-            <p>I study Industrial Economics with focus on Information and Communication Technologies at the Technical                    University of Berlin and enjoy both reading and writing of academic papers as well as Capture the Falg competitions.</p>
+            <p>I study Industrial Economics with focus on Information and Communication Technologies at the Technical University of Berlin and enjoy both reading and writing of academic papers as well as Capture the Falg competitions.</p>
         </div>
     </div>
     `
@@ -60,8 +59,8 @@ const footer = new Vue({
         <ul class="navbar-nav bd-navbar-nav flex-wrap">
             <li class = "nav-item">
                 <a class="nav-link">
-                    <a type="button" class="btn btn-danger" href="https://www.javascript.com/" target="blank">JavaScript</a>
-                    <a type="button" class="btn btn-danger" href="https://www.python.org/" target="blank">Python</a>
+                    <a type="button" class="btn btn-danger" href="" target="blank">JavaScript</a>
+                    <a type="button" class="btn btn-danger" href="" target="blank">Python</a>
                     <a type="button" class="btn btn-danger" href="" target="blank">Java</a>
                     <a type="button" class="btn btn-danger" href="" target="blank">C</a>
                     <a type="button" class="btn btn-danger" href="" target="blank">R</a>

@@ -15,25 +15,39 @@
 
 <style>
     .btn-primary {
-    margin-top: 0.1em; 
-}
+        margin-top: 0.1em;
+    }
+
     .btn-danger {
-    margin-top: 0.1em; 
-}
+        margin-top: 0.1em;
+    }
+
     .btn-secondary {
-    margin-top: 0.1em; 
-}
+        margin-top: 0.1em;
+    }
+
     .btn-success {
-    margin-top: 0.1em; 
-}  
+        margin-top: 0.1em;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #main {
+        display: flex;
+        flex-wrap: wrap;
+    }
 </style>
 
 <body>
-    <div class="container-fluid">
-        <div id="header" class="col col-12 col-md-4"></div>
+    <div class="main">
+        <div id="header"></div>
         <div id="mainer"></div>
         <div id="footer"></div>
     </div>
+
 
     <script src="/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

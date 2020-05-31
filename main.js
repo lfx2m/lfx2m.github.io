@@ -83,7 +83,7 @@ const footer = new Vue({
 
             <div class="col col-12 col-md-3">
 
-                <h5 class="container text-center">Webdevelopment</h5>
+                <h5 class="container text-center">Web development</h5>
                 <div class="navbar-nav-scroll">
                     <ul class="navbar-nav bd-navbar-nav flex-wrap">
                         <li class="nav-item">

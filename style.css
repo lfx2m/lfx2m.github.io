@@ -1,0 +1,25 @@
+.btn-primary {
+    margin-top: 0.1em;
+}
+
+.btn-danger {
+    margin-top: 0.1em;
+}
+
+.btn-secondary {
+    margin-top: 0.1em;
+}
+
+.btn-success {
+    margin-top: 0.1em;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+}

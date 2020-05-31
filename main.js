@@ -1,7 +1,7 @@
 const header = new Vue({
     el: "#header",
     template: `
-    <div class="container col-lg-12">
+    <div class="container col-12">
         <header class="navbar col-12 navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-dark text-white">
             <div class="navbar-nav-scroll">
                 <ul class="navbar-nav bd-navbar-nav flex-wrap">
@@ -53,6 +53,7 @@ const mainer = new Vue({
     </div>
     `
 })
+
 const footer = new Vue({
     el: "#footer",
     template: `
@@ -69,8 +70,6 @@ const footer = new Vue({
                                 <a type="button" class="btn btn-danger text-white active" aria-pressed="true">JavaScript</a>
                                 <a type="button" class="btn btn-danger text-white active" aria-pressed="true">Python</a>
                                 <a type="button" class="btn btn-danger text-white active" aria-pressed="true">Java</a>
-                                <a type="button" class="btn btn-danger text-white active" aria-pressed="true">C</a>
-                                <a type="button" class="btn btn-danger text-white active" aria-pressed="true">R</a>
                                 <a type="button" class="btn btn-danger text-white active" aria-pressed="true">API</a>
                                 <a type="button" class="btn btn-danger text-white active" aria-pressed="true">UML</a>
                                 <a type="button" class="btn btn-danger text-white active" aria-pressed="true">OOP</a>

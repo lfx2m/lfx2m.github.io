@@ -1,3 +1,4 @@
+/*HEADER*/
 body {
     background-color: rgb(245,241,228);
     font-family: 'Vollkorn', serif;
@@ -39,9 +40,10 @@ body {
     margin-top: 0.5rem;
 }
 
-.display {
-    border-bottom-style: solid;
+.header-nav li.active {
     border-bottom-color: red;
+    border-bottom-style: solid;
+    padding-bottom: 0.15rem;
 }
 
 a {
@@ -53,7 +55,33 @@ a:hover {
     color: red;
 }
 
-.display {
-    border-bottom-style: solid;
-    border-bottom-color: red;
+/*FOOTER*/
+.site-footer {
+    padding: 1rem 1.875rem;
+    border-top: 0.0625rem solid #e9e9e9;
+}
+
+.row-middle {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.site-footer-copyright {
+    font-size: 14px;
+    text-align: center;
+}
+
+.site-footer-links {
+    align-items: center;
+    text-align: center;
+}
+
+.social-item {
+    display: inline-block;
+    margin: 0.5625rem;
+}
+
+.back-to-top {
+    font-size: 14px;
+    text-align: right;
 }

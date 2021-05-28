@@ -1,13 +1,30 @@
-/*HEADER*/
+* {
+    box-sizing: border-box;
+}
+
+.theme-insta {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.75;
+    min-height: 100vh;
+    display: flex;
+    flex: 1 1 100vh;
+    flex-flow: column wrap;
+    margin: 0;
+}
+
 body {
     background-color: rgb(245,241,228);
     font-family: 'Vollkorn', serif;
 }
 
+/*HEADER*/
 .site-header {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 4.375rem;
+    margin-bottom: 1rem;
 }
 
 .site-subtitle {
@@ -55,10 +72,93 @@ a:hover {
     color: red;
 }
 
+/*BODY*/
+.site-wrapper {
+    -webkit-box-flex: 1;
+    flex: 1;
+    height: initial;
+}
+
+.site-content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.albun-insta-wrap {
+    max-width: 112.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album-insta {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+.album-insta-item {
+    max-width: 27.5rem;
+    flex-basis: 25%;
+    padding: 0.0625rem 1.25rem 2.5rem;
+    position: relative;
+}
+
+.album-insta-inner {
+    display: inline-table;
+    vertical-align: top;
+    position: relative;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    max-height: 523px;
+    max-width: 375px; 
+    min-height: 366px;
+    min-width: 262px;
+}
+
+img {
+    border-style: none;
+}
+
+.album-insta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    opacity: 0;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8));
+    transition: opacity .2s linear;
+}
+
+.album-insta-item:hover .album-insta-overlay {
+    opacity: 1;
+}
+
+.album-insta-project {
+    font-size: 1.625rem;
+    text-align: center;
+    padding: 1.25rem;
+    word-break: break-word;
+    hyphens: auto;
+}
+
 /*FOOTER*/
 .site-footer {
     padding: 1rem 1.875rem;
     border-top: 0.0625rem solid #e9e9e9;
+    margin-top: 1rem;
 }
 
 .row-middle {

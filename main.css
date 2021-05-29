@@ -208,3 +208,11 @@ img {
     text-align: right;
     margin-top: 0.25rem;
 }
+
+/*MOBILE*/
+@media screen and (max-width: 430px) {
+    .site-content {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

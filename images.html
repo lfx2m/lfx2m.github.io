@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="./Bootstrap_Fonts_Logos/bootstrap.css">
     <link rel="stylesheet" href="./main.css">
     <script src="./Bootstrap_Fonts_Logos/bootstrap.bundle.js"></script>
-    <script src="./main.js"></script>
-    <script src="./vue.js"></script>
+    <script src="./vue3.js"></script>
 </head>
 
 <body>
@@ -38,6 +37,10 @@
         </div>
     </header>
 
+    <div id="display">
+        <card-wrapper :cards="cards" />
+    </div>
+
     <footer class="site-footer">
         <div class="row row-middle">
             <div class="col-md-3 site-footer-copyright">
@@ -60,8 +63,11 @@
             </div>
         </div>
     </footer>
+
     <script src="./main.js"></script>
-    <script src="./vue.js"></script>
+    <script>
+        const mountedApp = display.mount('#display')
+    </script>
 </body>
 
 </html>
